@@ -2,4 +2,6 @@
 ## Проект
 Этот репозиторий является каркасом для будущего веб-приложения.
 ## Ссылки
-- [Публичная страница на GitHub Pages](https://github.com/dron-t/my-awesome-project)
+- [Публичная страница на GitHub Pages][def]
+
+[def]: https://github.com/dron-t/my-awesome-project
