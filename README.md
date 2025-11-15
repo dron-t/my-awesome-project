@@ -4,4 +4,4 @@
 ## Ссылки
 - [Публичная страница на GitHub Pages][def]
 
-[def]: https://github.com/dron-t/my-awesome-project
+[def]: https://dron-t.github.io/my-awesome-project/#contact
