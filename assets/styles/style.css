@@ -1,0 +1,73 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+}
+/* Структурные классы */
+.container { 
+width: 100%; 
+max-width: 1200px; 
+margin: 0 auto; 
+} 
+.flex { 
+display: flex; 
+} 
+.grid { 
+display: grid; 
+} 
+.justify-between { 
+justify-content: space-between; 
+}
+.align-center { 
+align-items: center; 
+} 
+.gap-md { 
+gap: 1rem; 
+} 
+.gap-lg { 
+gap: 2rem; 
+} 
+.cols-3 { 
+grid-template-columns: repeat(3, 1fr); 
+}
+.cols-6 { 
+grid-template-columns: repeat(6, 1fr); 
+} 
+/* Стилевые классы */
+.bg-white { 
+background: #fff; 
+} 
+.bg-light { 
+background: #f8f9fa; 
+} 
+.text-primary { 
+color: #2c5530; 
+} 
+.border { 
+border: 1px solid #ddd; 
+} 
+.border-bottom { 
+border-bottom: 2px solid; 
+} 
+.rounded { 
+border-radius: 8px; 
+} 
+.padding-lg { 
+padding: 1.5rem; 
+} 
+/* Компоненты */
+.logo.brand { 
+font-size: 1.5rem; 
+font-weight: bold; 
+} 
+.card { 
+transition: transform 0.2s; 
+} 
+.card:hover { 
+transform: translateY(-2px); 
+} 
+.item {
+width: 100px;
+height: 100px;
+background-color: lightblue;
+}
