@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
-    <header class="container flex justify-between align-center bg-white">
+    <header class="flex justify-between align-center bg-white">
         <ul>
             <li class="active-scale" :active><a href="https://dron-t.github.io/my-awesome-project/#search"><img src="assets/icons/Search.png" alt="поиск"></a> </li>
             <li class="active-scale" :active><a href="https://dron-t.github.io/my-awesome-project/#main"><img src="assets/img/Logo_Avion.png" alt="главная"></a></li>
@@ -32,9 +32,9 @@
         <section class="focus-outline" :focus>
             <h1 class="text-primary" class="bg-hover-dark":hover>В&nbsp;своём стремлении улучшить пользовательский опыт мы&nbsp;упускаем, что стремящиеся</h1>
             <a href="https://dron-t.github.io/my-awesome-project">рыба</a>
-            <p class="p-text bg-hover-dark:hover">В&nbsp;своём стремлении улучшить пользовательский опыт мы&nbsp;упускаем, что стремящиеся вытеснить традиционное производство, нанотехнологии являются только методом политического участия и&nbsp;в&nbsp;равной степени предоставлены сами себе.</p>
+            <p class="p-text bg-hover-dark" :hover>В&nbsp;своём стремлении улучшить пользовательский опыт мы&nbsp;упускаем, что стремящиеся вытеснить традиционное производство, нанотехнологии являются только методом политического участия и&nbsp;в&nbsp;равной степени предоставлены сами себе.</p>
             <aside>
-                <img class="container align-right" src="assets/img/Right_Image.png" alt="">
+                <img class="align-right" src="assets/img/Right_Image.png" alt="">
             </aside>
         </section>
         <section class="focus-outline" :focus>
@@ -71,7 +71,7 @@
             <input type="email" name="email" id="email">
             <label for="email">Вступайте</label>
         </section>
-        <section class="bg-hover-primary" :hover>
+        <section class="focus-outline" :focus>
             <h2>Банальные, но&nbsp;неопровержимые выводы, а&nbsp;также</h2>
             <p>Банальные, но&nbsp;неопровержимые выводы, а&nbsp;также тщательные исследования конкурентов смешаны с&nbsp;не&nbsp;уникальными данными до&nbsp;степени совершенной неузнаваемости, из-за чего возрастает их&nbsp;статус бесполезности. Ясность нашей позиции очевидна: понимание сути ресурсосберегающих технологий однозначно фиксирует необходимость прогресса профессионального сообщества. Банальные, но&nbsp;неопровержимые выводы, а&nbsp;также элементы политического процесса разоблачены.</p>
             <label for="myButton">Быть на связи</label>
@@ -82,37 +82,42 @@
         </section></main>
 
     <footer class="focus-outline" :focus>
-        <section>
-            <a href="https://dron-t.github.io/my-awesome-project"><h2>ррр</h2></a>
-            <ol class="active-scale" :active>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-            </ol>
-        </section>
-        <section>
-            <a href="https://dron-t.github.io/my-awesome-project"><h2>ррр</h2></a>
-            <ol class="active-scale" :active>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-            </ol>
-        </section>
-        <section>
-            <a href="https://dron-t.github.io/my-awesome-project"><h2>ррр</h2></a>
-            <ol class="active-scale" :active>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-                <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
-            </ol>
-        </section id="main">
+        <ul class="cols-3">
+            <li>section>
+                <a href="https://dron-t.github.io/my-awesome-project"><h2>ррр</h2></a>
+                <ol class="active-scale" :active>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                </ol>
+            </section>
+            </li><
+            <li><section>
+                <a href="https://dron-t.github.io/my-awesome-project"><h2>ррр</h2></a>
+                <ol class="active-scale" :active>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                </ol>
+            </section>
+            </li> 
+            <li><section>
+                <a href="https://dron-t.github.io/my-awesome-project"><h2>ррр</h2></a>
+                <ol class="active-scale" :active>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                    <li><a href="https://dron-t.github.io/my-awesome-project"><h3>ыфвфыв</h3></a></li>
+                </ol>
+            </section id="main">
+            </li>
+        </ul> 
         <aside>
             <label for="inputheader">Вступайте</label>
             <input type="email" name="inputheader" id="inputheader">
