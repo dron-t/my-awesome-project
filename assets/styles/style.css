@@ -3,6 +3,16 @@ margin: 0;
 padding: 0;
 box-sizing: border-box; 
 }
+@font-face { 
+font-family: 'CustomFont'; 
+src: url('../assets/fonts/custom-font.woff2') format('woff2'); 
+font-weight: 400; 
+font-display: swap; 
+} 
+/* Применение шрифтов */
+body { 
+font-family: 'Inter', system-ui, sans-serif; 
+} 
 /* Структурные классы */
 .container { 
 width: 100%; 
@@ -70,4 +80,30 @@ transform: translateY(-2px);
 width: 100px;
 height: 100px;
 background-color: lightblue;
+}
+/* Псевдоклассы */
+.hover-lift:hover { 
+transform: translateY(-2px); 
+transition: transform 0.2s ease; 
+} 
+.hover-grow:hover { 
+transform: scale(1.02); 
+transition: transform 0.2s ease; 
+} 
+.hover-shadow:hover { 
+box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+transition: box-shadow 0.3s ease; 
+} 
+.focus-outline:focus { 
+outline: 2px solid #2c5530; 
+outline-offset: 2px; 
+} 
+.active-scale:active { 
+transform: scale(0.98); 
+} 
+.transition { 
+transition: all 0.3s ease; 
+} 
+.bg-hover-light:hover { 
+background-color: #f8f9fa; 
 }
